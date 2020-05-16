@@ -26,4 +26,9 @@ if [ ! "$INPUT_IGNORE_REGEXP" = "" ]; then
   mv "$LOG_FILE.2" "$LOG_FILE"
 fi
 
-cat "$LOG_FILE" | reviewdog -efm="%f:%l:%c:%m" -name="nimlint" -reporter="${INPUT_REPORTER:-github-pr-check}" -level="${INPUT_LEVEL}"
+reviewdog \
+  -efm="%f:%l:%c:%m" \
+  -name="nimlint" \
+  -reporter="${INPUT_REPORTER:-github-pr-check}" \
+  -level="${INPUT_LEVEL}" \
+  < "$LOG_FILE"
