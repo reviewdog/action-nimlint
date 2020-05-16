@@ -50,9 +50,9 @@ inputs:
     description: 'Additional reviewdog flags'
     default: ''
   ### Flags for <linter-name> ###
-  locale:
-    description: '-locale flag of misspell. (US/UK)'
-    default: ''
+  src:
+    description: "Flags and args of eslint command. Default: 'src/*.nim'"
+    default: 'src/*.nim'
 ```
 
 ## Usage
