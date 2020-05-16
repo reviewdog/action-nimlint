@@ -10,8 +10,7 @@
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/reviewdog/action-nimlint?logo=github&sort=semver)](https://github.com/reviewdog/action-nimlint/releases)
 [![action-bumpr supported](https://img.shields.io/badge/bumpr-supported-ff69b4?logo=github&link=https://github.com/haya14busa/action-bumpr)](https://github.com/haya14busa/action-bumpr)
 
-![github-pr-review demo](https://user-images.githubusercontent.com/3797062/73162963-4b8e2b00-4132-11ea-9a3f-f9c6f624c79f.png)
-![github-pr-check demo](https://user-images.githubusercontent.com/3797062/73163032-70829e00-4132-11ea-8481-f213a37db354.png)
+![nimlint demo](https://user-images.githubusercontent.com/13825004/82107297-57454200-9761-11ea-8c3e-59027dd3e3a5.png)
 
 This is a template repository for [reviewdog](https://github.com/reviewdog/reviewdog) action with release automation.
 Click `Use this template` button to create your reviewdog action :dog:!
