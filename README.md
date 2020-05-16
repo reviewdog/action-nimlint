@@ -9,7 +9,7 @@
 
 ![nimlint demo](https://user-images.githubusercontent.com/13825004/82107297-57454200-9761-11ea-8c3e-59027dd3e3a5.png)
 
-This action lints Nim codes.
+This action lints [Nim](https://nim-lang.org/) codes.
 nimlint-action is inspired by [reviewdog/action-eslint](https://github.com/reviewdog/action-eslint).
 
 This action runs `nim check` with
