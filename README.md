@@ -1,5 +1,7 @@
 # action-nimlint
 
+**WIP**
+
 <!-- TODO: replace reviewdog/action-nimlint with your repo name -->
 [![Test](https://github.com/reviewdog/action-nimlint/workflows/Test/badge.svg)](https://github.com/reviewdog/action-nimlint/actions?query=workflow%3ATest)
 [![reviewdog](https://github.com/reviewdog/action-nimlint/workflows/reviewdog/badge.svg)](https://github.com/reviewdog/action-nimlint/actions?query=workflow%3Areviewdog)
