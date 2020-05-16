@@ -2,7 +2,6 @@
 
 **WIP**
 
-<!-- TODO: replace reviewdog/action-nimlint with your repo name -->
 [![Test](https://github.com/reviewdog/action-nimlint/workflows/Test/badge.svg)](https://github.com/reviewdog/action-nimlint/actions?query=workflow%3ATest)
 [![reviewdog](https://github.com/reviewdog/action-nimlint/workflows/reviewdog/badge.svg)](https://github.com/reviewdog/action-nimlint/actions?query=workflow%3Areviewdog)
 [![depup](https://github.com/reviewdog/action-nimlint/workflows/depup/badge.svg)](https://github.com/reviewdog/action-nimlint/actions?query=workflow%3Adepup)
@@ -12,15 +11,12 @@
 
 ![nimlint demo](https://user-images.githubusercontent.com/13825004/82107297-57454200-9761-11ea-8c3e-59027dd3e3a5.png)
 
-This is a template repository for [reviewdog](https://github.com/reviewdog/reviewdog) action with release automation.
-Click `Use this template` button to create your reviewdog action :dog:!
+This action lints Nim codes.
+nimlint-action is inspired by [reviewdog/action-eslint](https://github.com/reviewdog/action-eslint).
 
-If you want to create your own reviewdog action from scratch without using this
-template, please check and copy release automation flow.
-It's important to manage release workflow and sync reviewdog version for all
-reviewdog actions.
-
-This repo contains a sample action to run [misspell](https://github.com/client9/misspell).
+This action runs `nim check` with
+[reviewdog](https://github.com/reviewdog/reviewdog) on pull requests to improve
+code review experience.
 
 ## Input
 
