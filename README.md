@@ -18,7 +18,6 @@ code review experience.
 
 ## Input
 
-<!-- TODO: update -->
 ```yaml
 inputs:
   github_token:
