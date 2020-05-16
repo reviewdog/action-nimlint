@@ -54,7 +54,6 @@ inputs:
 ```
 
 ## Usage
-<!-- TODO: update. replace `template` with the linter name -->
 
 ```yaml
 name: nimlint
