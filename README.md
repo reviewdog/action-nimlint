@@ -1,7 +1,5 @@
 # action-nimlint
 
-**WIP**
-
 [![Test](https://github.com/reviewdog/action-nimlint/workflows/Test/badge.svg)](https://github.com/reviewdog/action-nimlint/actions?query=workflow%3ATest)
 [![reviewdog](https://github.com/reviewdog/action-nimlint/workflows/reviewdog/badge.svg)](https://github.com/reviewdog/action-nimlint/actions?query=workflow%3Areviewdog)
 [![depup](https://github.com/reviewdog/action-nimlint/workflows/depup/badge.svg)](https://github.com/reviewdog/action-nimlint/actions?query=workflow%3Adepup)
@@ -83,6 +81,7 @@ jobs:
 ### Release
 
 #### [haya14busa/action-bumpr](https://github.com/haya14busa/action-bumpr)
+
 You can bump version on merging Pull Requests with specific labels (bump:major,bump:minor,bump:patch).
 Pushing tag manually by yourself also work.
 
@@ -105,6 +104,7 @@ Supported linters:
 - [reviewdog/action-misspell](https://github.com/reviewdog/action-misspell)
 
 ### Dependencies Update Automation
+
 This repository uses [haya14busa/action-depup](https://github.com/haya14busa/action-depup) to update
 reviewdog version.
 
