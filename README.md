@@ -1,11 +1,13 @@
-# action-template
+# action-nimlint
 
-<!-- TODO: replace reviewdog/action-template with your repo name -->
-[![Test](https://github.com/reviewdog/action-template/workflows/Test/badge.svg)](https://github.com/reviewdog/action-template/actions?query=workflow%3ATest)
-[![reviewdog](https://github.com/reviewdog/action-template/workflows/reviewdog/badge.svg)](https://github.com/reviewdog/action-template/actions?query=workflow%3Areviewdog)
-[![depup](https://github.com/reviewdog/action-template/workflows/depup/badge.svg)](https://github.com/reviewdog/action-template/actions?query=workflow%3Adepup)
-[![release](https://github.com/reviewdog/action-template/workflows/release/badge.svg)](https://github.com/reviewdog/action-template/actions?query=workflow%3Arelease)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/reviewdog/action-template?logo=github&sort=semver)](https://github.com/reviewdog/action-template/releases)
+**WIP**
+
+<!-- TODO: replace reviewdog/action-nimlint with your repo name -->
+[![Test](https://github.com/reviewdog/action-nimlint/workflows/Test/badge.svg)](https://github.com/reviewdog/action-nimlint/actions?query=workflow%3ATest)
+[![reviewdog](https://github.com/reviewdog/action-nimlint/workflows/reviewdog/badge.svg)](https://github.com/reviewdog/action-nimlint/actions?query=workflow%3Areviewdog)
+[![depup](https://github.com/reviewdog/action-nimlint/workflows/depup/badge.svg)](https://github.com/reviewdog/action-nimlint/actions?query=workflow%3Adepup)
+[![release](https://github.com/reviewdog/action-nimlint/workflows/release/badge.svg)](https://github.com/reviewdog/action-nimlint/actions?query=workflow%3Arelease)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/reviewdog/action-nimlint?logo=github&sort=semver)](https://github.com/reviewdog/action-nimlint/releases)
 [![action-bumpr supported](https://img.shields.io/badge/bumpr-supported-ff69b4?logo=github&link=https://github.com/haya14busa/action-bumpr)](https://github.com/haya14busa/action-bumpr)
 
 ![github-pr-review demo](https://user-images.githubusercontent.com/3797062/73162963-4b8e2b00-4132-11ea-9a3f-f9c6f624c79f.png)
@@ -71,7 +73,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: reviewdog/action-template@v1
+      - uses: reviewdog/action-nimlint@v1
         with:
           github_token: ${{ secrets.github_token }}
           # Change reviewdog reporter if you need [github-pr-check,github-check,github-pr-review].
@@ -111,5 +113,5 @@ Supported linters:
 This repository uses [haya14busa/action-depup](https://github.com/haya14busa/action-depup) to update
 reviewdog version.
 
-[![reviewdog depup demo](https://user-images.githubusercontent.com/3797062/73154254-170e7500-411a-11ea-8211-912e9de7c936.png)](https://github.com/reviewdog/action-template/pull/6)
+[![reviewdog depup demo](https://user-images.githubusercontent.com/3797062/73154254-170e7500-411a-11ea-8211-912e9de7c936.png)](https://github.com/reviewdog/action-nimlint/pull/6)
 

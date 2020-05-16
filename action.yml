@@ -1,6 +1,6 @@
-name: 'TODO: Run <linter-name> with reviewdog'
-description: 'TODO: 🐶 Run <linter-name> with reviewdog on pull requests to improve code review experience.'
-author: 'TODO: <your-name>'
+name: 'Run nim check with reviewdog'
+description: '🐶 Run nim check with reviewdog on pull requests to improve code review experience.'
+author: 'jiro4989'
 inputs:
   github_token:
     description: 'GITHUB_TOKEN'
@@ -37,7 +37,6 @@ runs:
   image: 'Dockerfile'
 
 # Ref: https://haya14busa.github.io/github-action-brandings/
-# TODO: update branding if you want.
 branding:
   icon: 'check'
   color: 'blue'
