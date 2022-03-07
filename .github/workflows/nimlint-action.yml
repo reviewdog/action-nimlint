@@ -7,7 +7,7 @@ jobs:
     name: runner / nimlint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: nimlint-github-pr-review
         uses: reviewdog/action-nimlint@master
