@@ -1,6 +1,6 @@
 FROM nimlang/nim:alpine
 
-ENV REVIEWDOG_VERSION=v0.17.4
+ENV REVIEWDOG_VERSION=v0.17.5
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 
