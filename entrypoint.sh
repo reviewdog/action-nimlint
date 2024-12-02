@@ -32,6 +32,7 @@ reviewdog \
   -name="nimlint" \
   -reporter="${INPUT_REPORTER:-github-pr-check}" \
   -level="${INPUT_LEVEL}" \
+  -fail-level="${INPUT_FAIL_LEVEL}" \
   -fail-on-error="${INPUT_FAIL_ON_ERROR}" \
   -filter-mode="${INPUT_FILTER_MODE}" \
   < "$LOG_FILE"
