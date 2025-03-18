@@ -73,10 +73,10 @@ jobs:
     name: runner / nimlint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2.7.0
 
       - name: nimlint-github-pr-review
-      - uses: reviewdog/action-nimlint@v1
+      - uses: reviewdog/action-nimlint@416761c7a147bdf56c31d75b01bd133a52402ea1 # v1.19.0
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review # Change reporter.
